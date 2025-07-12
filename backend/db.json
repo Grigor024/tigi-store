@@ -1,0 +1,165 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ձմեռային",
+      "category": "Ձմեռային",
+      "img": "/upload/01.jpg",
+      "price": 100,
+      "description": "Ձմեռային համազգեստներ"
+    },
+    {
+      "id": 2,
+      "name": "Ձմեռային",
+      "category": "Ձմեռային",
+      "img": "/upload/02.jpg",
+      "price": 100,
+      "description": "Ձմեռային համազգեստներ"
+    },
+    {
+      "id": 3,
+      "name": "Ձմեռային",
+      "category": "Ձմեռային",
+      "img": "/upload/03.jpg",
+      "price": 100,
+      "description": "Ձմեռային համազգեստներ"
+    },
+    {
+      "id": 4,
+      "name": "Ամառային",
+      "category": "Ամառային",
+      "img": "/upload/04.jpg",
+      "price": 100,
+      "description": "Ամառային համազգեստներ"
+    },
+    {
+      "id": 5,
+      "name": "Ամառային",
+      "category": "Ամառային",
+      "img": "/upload/05.jpg",
+      "price": 100,
+      "description": "Ամառային համազգեստներ"
+    },
+    {
+      "id": 6,
+      "name": "Ամառային",
+      "category": "Ամառային",
+      "img": "/upload/06.jpg",
+      "price": 100,
+      "description": "Ամառային համազգեստներ"
+    },
+    {
+      "id": 7,
+      "name": "Անվտանգության",
+      "category": "Անվտանգության",
+      "img": "/upload/07.jpg",
+      "price": 100,
+      "description": "Անվտանգության համազգեստներ"
+    },
+    {
+      "id": 8,
+      "name": "Անվտանգության",
+      "category": "Անվտանգության",
+      "img": "/upload/08.jpg",
+      "price": 100,
+      "description": "Անվտանգության համազգեստներ"
+    },
+    {
+      "id": 9,
+      "name": "Անվտանգության",
+      "category": "Անվտանգության",
+      "img": "/upload/09.jpg",
+      "price": 100,
+      "description": "Անվտանգության համազգեստներ"
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "name": "Григор",
+        "phone": "+37444730124",
+        "address": "fgthfdh",
+        "email": "grigorvardan@gmail.com",
+        "comment": ""
+      },
+      "items": [
+        {
+          "id": 5,
+          "name": "Ամառային",
+          "category": "Ամառային",
+          "img": "/upload/05.jpg",
+          "price": 100,
+          "description": "Ամառային համազգեստներ",
+          "quantity": 2
+        },
+        {
+          "id": 7,
+          "name": "Անվտանգության",
+          "category": "Անվտանգության",
+          "img": "/upload/07.jpg",
+          "price": 100,
+          "description": "Անվտանգության համազգեստներ",
+          "quantity": 2
+        },
+        {
+          "id": 9,
+          "name": "Անվտանգության",
+          "category": "Անվտանգության",
+          "img": "/upload/09.jpg",
+          "price": 100,
+          "description": "Անվտանգության համազգեստներ",
+          "quantity": 3
+        }
+      ],
+      "total": 700,
+      "id": 1751960196242,
+      "date": "2025-07-08T07:36:36.242Z"
+    },
+    {
+      "customer": {
+        "name": "KArine",
+        "phone": "+226 ",
+        "address": "fghdf",
+        "comment": "",
+        "email": "karulik_v@mail.ru"
+      },
+      "items": [
+        {
+          "id": 6,
+          "name": "Ամառային",
+          "category": "Ամառային",
+          "img": "/upload/06.jpg",
+          "price": 100,
+          "description": "Ամառային համազգեստներ",
+          "quantity": 1
+        }
+      ],
+      "total": 100,
+      "id": 1751732509419,
+      "date": "2025-07-05T16:21:49.419Z"
+    },
+    {
+      "customer": {
+        "name": "KArine",
+        "phone": "+226 ",
+        "address": "Yerevan",
+        "comment": "",
+        "email": "karulik_v@mail.ru"
+      },
+      "items": [
+        {
+          "id": 7,
+          "name": "Անվտանգության",
+          "category": "Անվտանգության",
+          "img": "/upload/07.jpg",
+          "price": 100,
+          "description": "Անվտանգության համազգեստներ",
+          "quantity": 1
+        }
+      ],
+      "total": 100,
+      "id": 1751732307420,
+      "date": "2025-07-05T16:18:27.420Z"
+    }
+  ]
+}
