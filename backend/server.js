@@ -107,6 +107,24 @@ app.post("/api/orders", async (req, res) => {
 });
 
 
+app.get("/api/orders", async (req, res) => {
+  try {
+    const fileData = await fs.promises.readFile(dbPath, "utf8");
+    const db = JSON.parse(fileData);
+
+    if (db.orders) {
+      res.status(200).json(db.orders);
+    } else {
+      res.status(404).json({ message: "Заказы не найдены" });
+    }
+  } catch (err) {
+    console.error("Ошибка чтения заказов:", err.message);
+    res.status(500).json({ message: "Ошибка сервера" });
+  }
+});
+
+
+
 // Общий роут
 app.get("/api", (req, res) => {
   fs.readFile(dbPath, "utf8", (err, data) => {
